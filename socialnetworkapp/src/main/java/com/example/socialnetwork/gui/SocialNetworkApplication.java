@@ -30,7 +30,7 @@ public class SocialNetworkApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Socket client  = new Socket("192.168.1.19", 7999);
+        Socket client  = new Socket("127.0.0.1", 7999);
         ObjectInputStream i = new ObjectInputStream(client.getInputStream());
         ObjectOutputStream o = new ObjectOutputStream(client.getOutputStream());
         Client c = new Client(client, i, o);
