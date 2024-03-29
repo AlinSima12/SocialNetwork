@@ -1,0 +1,15 @@
+/* styledAlert.css */
+.dialog-pane {
+    -fx-background-color: rgb(255, 255, 255); /* Schimbă culoarea fundalului */
+}
+
+.dialog-pane .alert-header {
+    -fx-background-color: #2187d5; /* Schimbă culoarea antetului */
+    -fx-text-fill: black; /* Schimbă culoarea textului antetului */
+    -fx-font-weight: bold; /* Setare fontul pe bold */
+}
+
+.dialog-pane .label {
+    -fx-font-size: 20px; /* Schimbă dimensiunea fontului pentru text */
+    -fx-font-weight: bold; /* Setare fontul pe bold */
+}
